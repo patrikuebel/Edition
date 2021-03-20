@@ -7,7 +7,6 @@
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     padding-top: 1.5rem;
-    border-top: 1px solid var(--lighter-gray-color);
 }
 
 .footer-left {

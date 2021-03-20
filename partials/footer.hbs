@@ -1,14 +1,13 @@
 <footer class="site-footer container">
     <div class="footer-inner">
         <div class="footer-left">
-            <div class="copyright">
-                {{@site.title}} © {{date format="YYYY"}}
-            </div>
         </div>
 
         <nav class="footer-nav">
             {{navigation type="secondary"}}
-            <a class="menu-item badge" href="https://ghost.org/" target="_blank" rel="noopener noreferrer">Published with Ghost</a>
+            <span class="menu-item badge">
+                {{@site.title}} © {{date format="YYYY"}}
+            </span>
         </nav>
 
         <div class="footer-right">

@@ -33,9 +33,9 @@
 }
 
 .logo-text {
-    color: var(--secondary-text-color);
-    font-size: 1.8rem;
-    font-weight: 800;
+    color: var(--primary-text-color);
+    font-size: 1.7rem;
+    font-weight: 700;
 }
 
 .with-full-cover .logo-text {
